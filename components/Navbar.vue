@@ -122,7 +122,7 @@
               </label>
             </div>
             <button class="btn">
-              <img width="20px" src="/icons/login.png" alt="" />
+              <img width="20px" src="/icons/Login.png" alt="" />
             </button>
             <button class="btn">
               <img width="20px" src="/icons/heart_11613265.png" alt="" />
