@@ -13,13 +13,8 @@
             pauseOnMouseEnter: true,
           }"
           :loop="true"
-          :pagination="{
-            clickable: true,
-            el: '.swiper-pagination',
-            type: 'bullets',
-          }"
           ref="containerRef"
-          slides-per-view="3"
+          slides-per-view="4"
           :breakpoints="{
             0: {
               slidesPerView: 1,
@@ -33,7 +28,6 @@
               slidesPerView: 3,
               spaceBetween: 30,
             },
-
             960: {
               slidesPerView: 4,
               spaceBetween: 35,
@@ -97,6 +91,12 @@ const swiper = useSwiper(containerRef);
 </script>
 
 <style lang="css">
+/*
+:pagination="{
+            clickable: true,
+            el: '.swiper-pagination',
+            type: 'bullets',
+          }"
 .swiper-pagination {
   height: 10px;
   display: flex;
@@ -113,6 +113,8 @@ const swiper = useSwiper(containerRef);
 .swiper-pagination-bullet.swiper-pagination-bullet-active {
   height: 10px;
 }
+
+*/
 .swiper-prev,
 .swiper-next {
   position: absolute;

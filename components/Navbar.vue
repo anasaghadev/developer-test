@@ -236,61 +236,30 @@
             categories
           </a> -->
 
-          <!-- collapse -->
-          <a
-            class="list-group-item list-group-item-action fs-5"
-            data-bs-toggle="collapse"
-            href="#collapse-element"
-            role="button"
-            aria-expanded="false"
-            aria-controls="collapse-element"
+          <NuxtLink
+            to="/categories/electronics"
+            class="list-group-item list-group-item-action bg-body-tertiary fs-5"
           >
-            categories
-          </a>
-          <div class="collapse" id="collapse-element">
-            <div class="list-group rounded-0">
-              <NuxtLink
-                to="/categories/electronics"
-                class="list-group-item list-group-item-action bg-body-tertiary fs-5"
-              >
-                electronics
-              </NuxtLink>
-              <NuxtLink
-                to="/categories/jewelery"
-                class="list-group-item list-group-item-action bg-body-tertiary fs-5"
-              >
-                jewelry
-              </NuxtLink>
-              <NuxtLink
-                to="/categories/men's clothing"
-                class="list-group-item list-group-item-action bg-body-tertiary fs-5"
-              >
-                men clothing
-              </NuxtLink>
-              <NuxtLink
-                to="/categories/women's clothing"
-                class="list-group-item list-group-item-action bg-body-tertiary fs-5"
-              >
-                women clothing
-              </NuxtLink>
-            </div>
-          </div>
-          <!-- collapse -->
-          <div
-            class="position-relative d-none d-sm-block"
-            style="height: fit-content"
+            electronics
+          </NuxtLink>
+          <NuxtLink
+            to="/categories/jewelery"
+            class="list-group-item list-group-item-action bg-body-tertiary fs-5"
           >
-            <input
-              id="search"
-              type="text"
-              placeholder="search"
-              class="search w-100"
-              v-model="search"
-            />
-            <label class="search-icon" for="search">
-              <img width="20px" src="/icons/Search Mouve.png" alt="" />
-            </label>
-          </div>
+            jewelry
+          </NuxtLink>
+          <NuxtLink
+            to="/categories/men's clothing"
+            class="list-group-item list-group-item-action bg-body-tertiary fs-5"
+          >
+            men clothing
+          </NuxtLink>
+          <NuxtLink
+            to="/categories/women's clothing"
+            class="list-group-item list-group-item-action bg-body-tertiary fs-5"
+          >
+            women clothing
+          </NuxtLink>
         </div>
       </div>
     </div>

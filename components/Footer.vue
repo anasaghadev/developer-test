@@ -26,16 +26,24 @@
           </a>
         </div>
         <div class="col d-flex flex-column gap-4 text-capitalize pt-5">
-          <NuxtLink to="" class="text-decoration-none text-white fs-5"
+          <NuxtLink
+            to="/categories/electronics"
+            class="text-decoration-none text-white fs-5"
             >electronics</NuxtLink
           >
-          <NuxtLink to="" class="text-decoration-none text-white fs-5"
+          <NuxtLink
+            to="/categories/jewelery"
+            class="text-decoration-none text-white fs-5"
             >jewelry</NuxtLink
           >
-          <NuxtLink to="" class="text-decoration-none text-white fs-5"
+          <NuxtLink
+            to="/categories/men's clothing"
+            class="text-decoration-none text-white fs-5"
             >men clothing</NuxtLink
           >
-          <NuxtLink to="" class="text-decoration-none text-white fs-5"
+          <NuxtLink
+            to="/categories/women's clothing"
+            class="text-decoration-none text-white fs-5"
             >women clothing</NuxtLink
           >
         </div>
